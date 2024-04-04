@@ -1,0 +1,56 @@
+  {/* <div className='containerr' >
+                <div className='chatbox'>
+                    <div className=' chat'>
+                        <div className='box'></div>
+
+                     
+                                <div className='toastNotificationOuter'><div className='toastNotification'>Welcome Nihal to the chat</div></div>
+
+                        {chat.map((payload, index) =>{
+                            <div key={index}>
+
+                                { payload.userId == userId?
+                                            <div className='sendMsgOuter'>
+                                           <div className='sendMsg msg'><b>{payload.userName}</b>{payload.message}</div>
+                                           </div>
+                                           :
+                                           <div className='recMsgOuter'> 
+                                           <div className='recMsg msg'><b>{payload.userName}</b>{payload.message}</div> </div>
+                                        }
+                                       
+
+                                    
+                                   
+                                    
+                                </div>
+                            })}
+
+                                    <div className='sendMsgOuter'>
+                                   
+                                        <div className='sendMsg msg'>hellaaw dawda wddaw dawawdw adawddo</div>
+                                    </div>
+                                    <div className='sendMsgOuter'>
+                                 
+                                        <div className='sendMsg msg'>hellwdw adawddo</div>
+                                    </div>
+                            
+                                   <div className='recMsgOuter'> 
+                                        <div className='recMsgName msgName'>Nihal</div>
+                                        <div className='recMsg msg'>awdawdawda dawdawdaw awdawdawd awdhi</div>
+                                   </div>
+                                   <div className='recMsgOuter'> 
+                                        <div className='recMsgName msgName'>Nihal</div>
+                                        <div className='recMsg msg'>a awdhi</div>
+                                   </div>
+                               <div ref={bottomOfChat}/> 
+                              
+    
+    
+                    </div>
+                    <div className=' inputBox'>
+                        <input className='messageBox form-control border-rounded' type="text" value={message} onChange={(e) => setMessage(e.target.value)} />
+                        <button className='btn btn-primary rounded-circle d-flex  justify-content-center' onClick={sendChat}><i class="fas fa-paper-plane sendIcon"></i></button>
+    
+                    </div>
+                </div>
+           </div> */}
