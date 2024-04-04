@@ -7,7 +7,7 @@ import { nanoid } from "nanoid"
 
 
 
-const socket = io.connect("https://simplechatappbackend.onrender.com/")
+const socket = io.connect("https://simplechatbackend.onrender.com/")
 const userId = nanoid(4)
 function Chat({ userName, setUserName,userIcon,setUserIcon}) {
 
